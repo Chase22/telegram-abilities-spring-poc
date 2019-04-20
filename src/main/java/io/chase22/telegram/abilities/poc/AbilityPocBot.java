@@ -17,10 +17,12 @@ public class AbilityPocBot extends AbilityBot {
         return 0;
     }
 
+    //Required getter for SilentSender
     public SilentSender silentSender() {
         return silent;
     }
 
+    //Required getter for MessageSender
     public MessageSender messageSender() {
         return sender;
     }

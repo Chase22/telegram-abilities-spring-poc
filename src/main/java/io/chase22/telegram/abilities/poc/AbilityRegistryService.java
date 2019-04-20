@@ -20,6 +20,7 @@ public class AbilityRegistryService implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() {
+        // Here we could call something like AbiltyBot.addAbility() to register the ability
         abilities.forEach(ability -> LOGGER.info("Registering Ability {}", ability.name()));
     }
 }

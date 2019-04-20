@@ -17,6 +17,7 @@ public class Abilities {
         this.silent = silent;
     }
 
+    // Make some Ability available as bean
     @Bean
     public Ability helloWorldBean(Ability.AbilityBuilder builder) {
         return builder

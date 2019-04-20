@@ -10,7 +10,7 @@ import org.telegram.abilitybots.api.sender.SilentSender;
 import static org.springframework.beans.factory.config.BeanDefinition.SCOPE_PROTOTYPE;
 
 /**
- * This class makes a bunch of importan objects available as beans
+ * This class makes a bunch of important objects available as beans
  */
 @Component
 public class AbilityBeanFactory {
