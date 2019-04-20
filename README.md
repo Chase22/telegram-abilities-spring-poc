@@ -3,7 +3,7 @@ A proof of concept on how to to inject abilities using spring
 
 **This repository code is not intended for productive use**
 
-##How to use
+## How to use
 * Create a bean of type Ability somewhere (see Abilities class)
 * Run the application
 * Expect a log output 
